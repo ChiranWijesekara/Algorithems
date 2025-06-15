@@ -1,22 +1,3 @@
-
-//INTERPOLATION SEARCH
-
-
-/*
-> Interval between elements should be uniform
-> Sorted elements
-> Formula to find Pos = Lo + ((Hi - Lo)/(A[Hi] - A[Lo])) * (X - A[Lo])
-        
-                 (Hi - Lo)
-pos  = Lo + ------------------- x (X - A[Lo])
-              (A[Hi] - A[Lo])
-
-> Time Complexity:
-    O(log2(log2 n)) - for the average case
-    O(n)            - for the worst case
-*/
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -116,3 +97,21 @@ int main(){
     
     return 0;
 }
+
+
+//INTERPOLATION SEARCH
+
+
+/* its working on these method. only have a formula for that method
+> Interval between elements should be uniform
+> Sorted elements
+> Formula to find Pos = Lo + ((Hi - Lo)/(A[Hi] - A[Lo])) * (X - A[Lo])
+        
+                 (Hi - Lo)
+pos  = Lo + ------------------- x (X - A[Lo])
+              (A[Hi] - A[Lo])
+
+> Time Complexity:
+    O(log2(log2 n)) - for the average case
+    O(n)            - for the worst case
+*/
