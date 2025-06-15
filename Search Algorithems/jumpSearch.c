@@ -108,3 +108,6 @@ int main(){
     jumpSearch(arr,size,target);
     return 0;
 }
+
+/*Jump search algorithems:  firstly array going sorted 
+and then work*/
