@@ -1,14 +1,4 @@
-//UBIQUITOUS BINARY SEARCH
-/*
-> Make sure array is sorted
-> Make sure that high and low are not consecutive (high - low)>1
-> mid = (high - low) / 2
-> if value[mid] <= target : low mid (select second half)
-    else : low high(select first half)
-> if high - low == 1: stop iteration
-    check values[high] == target or values[low] == target
-*/
-
+//How to working thiss going down for get instructions
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -145,3 +135,14 @@ int main(){
 
     return 0;
 }
+
+//UBIQUITOUS BINARY SEARCH
+/*
+> Make sure array is sorted
+> Make sure that high and low are not consecutive (high - low)>1
+> mid = (high - low) / 2
+> if value[mid] <= target : low mid (select second half)
+    else : low high(select first half)
+> if high - low == 1: stop iteration
+    check values[high] == target or values[low] == target
+*/
