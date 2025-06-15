@@ -33,3 +33,6 @@ int main(){
 
     return 0;
 }
+
+/*Linear serach is speail one
+its working one by one in array*/
