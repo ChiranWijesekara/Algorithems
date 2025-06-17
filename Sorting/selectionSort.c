@@ -22,11 +22,6 @@ void selectionSort(int A[],int length){
     }
 }
 
-/*
-වමේ තියෙන එකෙන් පටන් ගන්නව , එ තෝරගන්න එකට දකුනෙන් තියෙන හැම 
-element එකක්ම check කරල දකුනෙන් තියෙන පොඩිම එකත් එක්ක එක මාරූ කරනව
-*/
-
 int main(){
     srand(time(NULL));
     int size;
