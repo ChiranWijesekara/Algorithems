@@ -1,5 +1,3 @@
-//From copilot
-
 #include <stdio.h>
 #include <stdlib.h>
 
