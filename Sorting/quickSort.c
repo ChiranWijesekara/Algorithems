@@ -2,10 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
-pivot එකක් තෝරගෙන එක්කට වඩා අඩු values වමට දානව, වැඩි ඒව දකුනට දානව. අතර මැදට pivot එක දානව.
-*/
-
 void swap(int A[],int left,int right){
     int temp = A[left];
     A[left] = A[right];
